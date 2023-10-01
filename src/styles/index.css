@@ -1,0 +1,400 @@
+/* body */
+body {
+    background-color: var(--purple);
+}
+
+/* header */
+#header-index {
+    background-image: url('../imgs/background-header-phone.png');
+    display: flex;
+    flex-direction: column;
+}
+
+.container-titlle-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titlle-index {
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+    white-space: nowrap;
+}
+
+#img-developer {
+    width: 30%;
+    margin-top: 1em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.whiteletter-bold {
+    font-weight: 700;
+    color: var(--white);
+}
+
+.container-description {
+    width: 80%;
+    margin: auto;
+    background-color: var(--bg-description-container);
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border-radius: 15px;
+}
+
+.paragraf-header {
+    font-weight: 500;
+}
+
+/* main */
+/* section technologis */
+
+#technologic {
+    width: 100%;
+    background-color: var(--blue-technologis);
+    margin-bottom: 1em;
+}
+
+.list-technologis {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0.5em 0;
+    flex-grow: 1;
+}
+
+.titlle-technologic {
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+/* section wins */
+
+.container-wins {
+    width: 90%;
+    margin: auto;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+    border-radius: 15px;
+}
+
+.container-primario {
+    margin-bottom: 1em;
+}
+
+#more-wins {
+    background-color: var(--white);
+    color: var(--purple);
+    align-self: flex-end;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    border: none;
+    border-radius: 100%;
+    padding: 0 3px;
+}
+
+#more-wins:hover,
+#more-wins:active {
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+.hide {
+    display: none;
+}
+
+.titlle-win {
+    color: var(--black);
+    margin-bottom: 0.5em;
+}
+
+.destaque {
+    color: var(--red);
+}
+
+/* section highlights */
+
+#highlights {
+    display: flex;
+}
+
+.img-carrossel {
+    width: 100%;
+}
+
+.container-highlights {
+    padding: 0.5em;
+    gap: 10px;
+}
+
+.paragraf-highlights {
+    color: var(--black);
+}
+
+.pagination {
+    text-align: center;
+    margin-right: 1.5em;
+}
+
+.point {
+    font-size: 6px;
+}
+
+/* section projects */
+
+#projects {
+    background-color: var(--white);
+}
+
+.titulo-projects {
+    text-align: center;
+    font-size: 1.5em;
+    background-color: var(--black);
+    padding: 1em 0;
+    margin-top: 1em;
+}
+
+/* more about projects */
+
+#more-about-projects {
+    background-color: var(--black);
+}
+
+.titulo-more-projects {
+    color: var(--black);
+    text-align: center;
+    margin: 1em;
+}
+
+.container-moreprojects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.paragraf-projects {
+    color: var(--white);
+}
+
+.button-more-about-projects {
+    background-color: var(--white);
+    color: var(--black);
+    padding: 5px 1em;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    box-shadow: 0px 5px var(--black);
+    margin-bottom: 1em;
+    border: 1px solid var(--black);
+}
+
+.button-more-about-projects:active {
+    box-shadow: none;
+}
+
+.button-more-about-projects img {
+    border-radius: 100%;
+}
+
+.button-more-about-projects:hover {
+    background-color: var(--lightblue);
+}
+
+/* section redes */
+
+#redes {
+    background-color: var(--bg-color-redes);
+    border-radius: 15px;
+    margin-bottom: 1em;
+}
+
+.titlle-redes {
+    color: var(--black);
+    font-size: 15px;
+    text-align: center;
+    margin: 1em 0;
+    padding-top: 0.5em;
+}
+
+.list-redes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.list-item-redes img {
+    border-radius: 100%;
+    box-shadow: 5px 5px 3px var(--black);
+    margin-bottom: 1em;
+}
+
+.list-item-redes img:hover {
+    opacity: 0.5;
+}
+
+.list-item-redes img:active {
+    opacity: 1;
+    box-shadow: none;
+}
+
+footer {
+    background-color: var(--white);
+}
+
+.destaque-footer {
+    color: var(--purple);
+}
+
+.paragraf-footer {
+    white-space: nowrap;
+    font-size: 13px;
+    text-align: center;
+    padding: 2em 0;
+}
+
+@media (min-width: 700px) {
+
+    #header-index {
+        background-image: url('../imgs/bg-header-tablet.png');
+    }
+
+    .titlle-index {
+        font-size: 2em;
+        margin-left: 3em;
+    }
+
+    .container-description {
+        width: 55%;
+        margin: 0;
+        margin-left: 3em;
+        margin-bottom: 1em;
+    }
+
+    .paragraf-header {
+        font-size: 1.2em;
+    }
+
+    #img-developer {
+        width: 25%;
+        align-self: flex-end;
+        margin-right: 2em;
+    }
+
+    .list-technologis {
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #html-logo {
+        display: flex;
+    }
+
+    #css-logo {
+        display: flex;
+    }
+
+    .swiper {
+        width: 100%;
+    }
+
+    .container-primario {
+        justify-content: space-around;
+        gap: 0;
+    }
+
+    .button-more-about-projects {
+        padding: 10px 4em;
+    }
+
+    .paragraf-projects {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+    }
+
+    .titlle-redes {
+        font-size: 1.5em;
+    }
+
+    .list-redes img {
+        width: 120%;
+        gap: 50px;
+    }
+
+    .paragraf-footer {
+        font-size: 1.1em;
+    }
+
+    .destaque-footer {
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    #header-index {
+        background-image: url('../imgs/background-header-desktop.png');
+    }
+
+    .titlle-index {
+        align-self: flex-start;
+        margin-bottom: 0;
+        margin-top: 1em;
+    }
+
+    .container-description {
+        width: 40%;
+    }
+
+    .paragraf-header {
+        font-size: 2em;
+    }
+
+    .list-technologis img{
+        width: 100px;
+        margin-bottom: 1em;
+    }
+
+    .titlle-technologic {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    .container-primario {
+        padding: 3em;
+    }
+
+    .container-primario img {
+        width: 15%;
+    }
+
+    .titlle-win {
+        font-size: 2em;
+    }
+
+    .destaque {
+        font-size: 28px;
+        margin-bottom: 0.3em;
+    }
+
+    .container-highlights {
+        padding: 2em;
+    }
+
+    .paragraf-highlights {
+        font-size: 2em;
+    }
+
+    .button-more-about-projects {
+        padding: 20px 10em;
+    }
+
+}

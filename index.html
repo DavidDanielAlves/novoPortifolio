@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portifolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="src/js/main.js" defer></script>
+
+</head>
+
+<body>
+    <header id="header-index">
+        <div class="container-titlle-img">
+            <h1 class="titlle-index whiteletter-bold">front-end developer</h1>
+            <img src="src/imgs/minha-foto.png" alt="foto do deseenvolvedor David Daniel" id="img-developer">
+        </div>
+        <div class="container-description">
+            <p class="paragraf-header whiteletter-bold">olá sou David Daniel Alves, estudo front-end a mais de um ano.
+                Sou proativo no que faço, e busco sempre o melhor resultado tanto para mim, quanto para meus clientes,
+                sou apaixonado por programação, e sempre estou em busca de novos conhecimentos.</p>
+        </div>
+    </header>
+
+    <main id="main">
+        <section id="technologic">
+            <h2 class="titlle-technologic whiteletter-bold">Tecnologias</h2>
+            <ul class="list-technologis">
+                <li><img src="src/imgs/html-logo.png" alt="logo de html" class="hide" id="html-logo"></li>
+                <li><img src="src/imgs/css-logo.png" alt="logo css" class="hide" id="css-logo"></li>
+                <li><img src="src/imgs/logo-javascript.png" alt="logo Javascript"></li>
+                <li><img src="src/imgs/Sass-logo.png" alt="logo Sass"></li>
+                <li><img src="src/imgs/tailwindcss-logo.png" alt="logo tailwind css"></li>
+                <li><img src="src/imgs/bootstrap-logo.png" alt="logo bootstrap"></li>
+                <li><img src="src/imgs/figma-logo.png" alt="figma logo"></li>
+            </ul>
+        </section>
+        <section id="wins">
+            <div class="container-wins container-primario">
+                <img src="src/imgs/trofeu-logo.png" alt="logo de trofeu">
+                <div>
+                    <h2 class="titlle-win whiteletter-bold">Minhas conquistas</h2>
+                    <p class="titlle-win whiteletter-bold">Formação<strong
+                            class="destaque whiteletter-bold">HTML</strong> e <strong
+                            class="destaque whiteletter-bold">CSS</strong> da Alura</p>
+                </div>
+                <button id="more-wins"><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <div class="container-more-wins hide">
+                <div class="container-wins">
+                    <img src="src/imgs/trofeu-logo.png" alt="logo de trofeu">
+                    <div>
+                        <h2 class="titlle-win whiteletter-bold">Minhas conquistas</h2>
+                        <p class="titlle-win whiteletter-bold">Formação <strong
+                                class="destaque whiteletter-bold">Javascript</strong> da Alura</p>
+                    </div>
+                </div>
+                <div class="container-wins">
+                    <img src="src/imgs/trofeu-logo.png" alt="logo de trofeu">
+                    <div>
+                        <h2 class="titlle-win whiteletter-bold">Minhas conquistas</h2>
+                        <p class="titlle-win whiteletter-bold">Formação básica de desing no <strong
+                                class="destaque whiteletter-bold">Figma</strong> da Alura, ferramenta de <strong
+                                class="destaque whiteletter-bold">desing</strong></p>
+                    </div>
+                </div>
+                <div class="container-wins">
+                    <img src="src/imgs/trofeu-logo.png" alt="logo de trofeu">
+                    <div>
+                        <h2 class="titlle-win whiteletter-bold">Minhas conquistas</h2>
+                        <p class="titlle-win whiteletter-bold">Formação <strong
+                                class="destaque whiteletter-bold">Sass</strong> e <strong
+                                class="destaque whiteletter-bold">Scss</strong> framework de css</p>
+                    </div>
+                </div>
+                <div class="container-wins">
+                    <img src="src/imgs/trofeu-logo.png" alt="logo de trofeu">
+                    <div>
+                        <h2 class="titlle-win whiteletter-bold">Minhas conquistas</h2>
+                        <p class="titlle-win whiteletter-bold">Formação <strong
+                                class="destaque whiteletter-bold">Bootstrap</strong> da Alura</p>
+                    </div>
+                </div>
+                <div class="container-wins">
+                    <img src="src/imgs/trofeu-logo.png" alt="logo de trofeu">
+                    <div>
+                        <h2 class="titlle-win whiteletter-bold">Minhas conquistas</h2>
+                        <p class="titlle-win whiteletter-bold">Curso de empreendedorismo do <strong
+                                class="destaque whiteletter-bold">SEBRAE</strong></p>
+                    </div>
+                </div>
+                <div class="container-wins">
+                    <img src="src/imgs/trofeu-logo.png" alt="logo de trofeu">
+                    <div>
+                        <h2 class="titlle-win whiteletter-bold">Minhas conquistas</h2>
+                        <p class="titlle-win whiteletter-bold"><strong class="destaque whiteletter-bold">inglês</strong>
+                            nível básico</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="highlights">
+
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="container-highlights container-wins">
+                            <img src="src/imgs/icone-de-codigo.png" alt="icone de codigo">
+                            <div>
+                                <p class="paragraf-highlights whiteletter-bold">Trabalho com código limpo e manutenção
+                                    conforme meu
+                                    avanço em conhecimentos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container-highlights container-wins">
+                            <img src="src/imgs/alura-icone.png" alt="icone de codigo">
+                            <div>
+                                <p class="paragraf-highlights whiteletter-bold">Sou estudante da escola de programação
+                                    Alura
+                                    cursando front-end</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container-highlights container-wins">
+                            <img src="src/imgs/imagem-empreendedorismo.png" alt="icone de codigo">
+                            <div>
+                                <p class="paragraf-highlights whiteletter-bold">Sou empreendedor e busco entender os
+                                    meus clientes e
+                                    o mercado para entregar o melhor resultado</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+
+            </div>
+
+        </section>
+        <section id="projects">
+
+            <h2 class="titulo-projects whiteletter-bold">Projetos</h2>
+
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img class="img-carrossel" src="src/imgs/alura-books.png" alt=""></div>
+                    <div class="swiper-slide"><img class="img-carrossel" src="src/imgs/netflix-clone.png" alt=""></div>
+                    <div class="swiper-slide"><img class="img-carrossel" src="src/imgs/optimus-tech.png" alt=""></div>
+                    <div class="swiper-slide"><img class="img-carrossel" src="src/imgs/alura-flix.png" alt=""></div>
+                    <div class="swiper-slide"><img class="img-carrossel" src="src/imgs/fokus.png" alt=""></div>
+                    <div class="swiper-slide"><img class="img-carrossel" src="src/imgs/qrcode.png" alt=""></div>
+                    <div class="swiper-slide"><img class="img-carrossel" src="src/imgs/xman.png" alt=""></div>
+                    <div class="swiper-slide"><img class="img-carrossel" src="src/imgs/alura-newsletter.png" alt=""></div>
+                    <div class="swiper-slide"><img class="img-carrossel" src="src/imgs/culturama.png" alt=""></div>
+                    <div class="swiper-slide"><img class="img-carrossel" src="src/imgs/jogo-do-numero-secreto.png" alt=""></div>
+                    <div class="swiper-slide"><img class="img-carrossel" src="src/imgs/mochila-de-viagem.png" alt=""></div>
+                    <div class="swiper-slide"><img class="img-carrossel" src="src/imgs/mil-delicias.png" alt=""></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+        <section id="more-about-projects">
+            <h2 class="whiteletter-bold titulo-more-projects">veja mais sobre os meus projetos em</h2>
+            <div class="container-moreprojects">
+                <a href="https://github.com/DavidDanielAlves?tab=repositories" class="button-more-about-projects">
+                    <img src="src/imgs/icone-github.png" alt="icone github">
+                    <p>github</p>
+                </a>
+                <p class="whiteletter-bold paragraf-projects">ou</p>
+                <a href="https://vercel.com/dashboard" class="button-more-about-projects">
+                    <img src="src/imgs/icone-vercel.png" alt="icone vercel">
+                    <p>vercel</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="redes">
+            <h2 class="whiteletter-bold titlle-redes">Se interessou? envie-me uma mensagem</h2>
+                <ul class="list-redes">
+                    <a href="https://web.whatsapp.com">
+                        <li class="list-item-redes"><img src="src/imgs/whatzapp-icone.png" alt=""></li>
+                    </a>
+                    <a href="https://mail.google.com">
+                        <li class="list-item-redes"><img src="src/imgs/email-icone.png" alt=""></li>
+                    </a>
+                    <a href="https://www.linkedin.com">
+                        <li class="list-item-redes"><img src="src/imgs/linkedin-icone.png" alt=""></li>
+                    </a>
+                </ul>
+        </section>
+    </main>
+
+    <footer id="rodape">
+        <p class="paragraf-footer">Criador e Deseenvolvedor <strong class="destaque-footer">David Daniel Alves</strong></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 100,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: true
+            }
+        });
+    </script>
+</body>
+
+</html>
